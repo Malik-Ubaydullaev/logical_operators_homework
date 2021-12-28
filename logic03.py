@@ -1,4 +1,5 @@
 def main(a,b):
+    c = a < 0 and b < 0
     """
     Given two integers a, b,  check the following statement "Each of the numbers 'a' and 'b' is negative".
     Args:
@@ -7,4 +8,4 @@ def main(a,b):
     Returns:
         True if each of the numbers 'a' and 'b' is negative, False otherwise
     """
-    return
+    return c
